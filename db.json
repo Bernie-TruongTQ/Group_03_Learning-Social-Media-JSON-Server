@@ -1,9 +1,974 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "flashcardSets": [
+    {
+      "id": "3",
+      "name": "History Facts",
+      "description": "A collection of flashcards about important historical events.",
+      "userId": "5",
+      "flashcards": [
+        {
+          "id": "1",
+          "question": "Who was the first President of the United States?",
+          "answer": "George Washington",
+          "image": {
+            "id": "UczwJ",
+            "url": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHw4fHxnYW1lfGVufDB8fHx8MTc0OTcxMTYxOXww&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "red xbox one game controller"
+          }
+        },
+        {
+          "id": "2",
+          "question": "What year did World War II end?",
+          "answer": "1945",
+          "image": null
+        },
+        {
+          "id": "3",
+          "question": "Who discovered America in 1492?",
+          "answer": "Christopher Columbus",
+          "image": {
+            "id": "adsf",
+            "url": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHw4fHxnYW1lfGVufDB8fHx8MTc0OTcxMTYxOXww&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "red xbox one game controller"
+          }
+        },
+        {
+          "id": "4",
+          "question": "What was the name of the ship that sank in 1912?",
+          "answer": "Titanic",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "d3d",
+      "name": "new Set",
+      "description": "setNew",
+      "userId": "5",
+      "flashcards": [
+        {
+          "id": "b22beb81-8a72-4318-b735-841417182342",
+          "question": "1",
+          "answer": "ansưẻ2",
+          "image": null
+        },
+        {
+          "id": "e8825ef2-d576-412e-96d9-f3141dfdf0b2",
+          "question": "2",
+          "answer": "444",
+          "image": {
+            "id": "122872",
+            "url": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHw4fHxnYW1lfGVufDB8fHx8MTc0OTcxMTYxOXww&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "red xbox one game controller"
+          }
+        },
+        {
+          "id": "630bf680-796e-4d07-85fe-098a1883f241",
+          "question": "3",
+          "answer": "4444",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "OnlyCat",
+      "description": "cat cat cat",
+      "flashcards": [
+        {
+          "id": "77c1cae2-fea2-4cea-8df9-a3d55e8f1df9",
+          "question": "cat 1",
+          "answer": "orange",
+          "image": null
+        },
+        {
+          "id": "3fabe72d-5c26-4483-9890-368e25e75910",
+          "question": "cat 2",
+          "answer": "huhuhu",
+          "image": null
+        },
+        {
+          "id": "6dd9237c-25b2-4c46-9938-599d8c6f9edd",
+          "question": "meo3",
+          "answer": "tao moi",
+          "image": null
+        }
+      ],
+      "userId": "5",
+      "id": "0554"
+    },
+    {
+      "id": "c2e3",
+      "name": "lam on lam phuoc",
+      "description": "",
+      "flashcards": [
+        {
+          "id": "8fd0fcae-41ba-4299-8e88-8b1878b5b11d",
+          "question": "aaaaa",
+          "answer": "aaaa",
+          "image": null
+        },
+        {
+          "id": "817465df-4aaa-44a3-ade6-48d801ce071f",
+          "question": "bbb",
+          "answer": "b123",
+          "image": null
+        }
+      ],
+      "userId": "5"
+    },
+    {
+      "id": "9a0d",
+      "name": "Toi kho qua",
+      "description": "met moi",
+      "flashcards": [
+        {
+          "id": "0a5dec81-51c7-4118-b88c-171e10444294",
+          "question": "new term",
+          "answer": "new def",
+          "image": {
+            "id": "RmoWqDCqN2E",
+            "url": "https://images.unsplash.com/photo-1537420327992-d6e192287183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHwxfHxzcGFjZXxlbnwwfHx8fDE3NDk3MTY0NjF8MA&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "timelapse photography of warped lines"
+          }
+        },
+        {
+          "id": "ac9e1340-f1fd-499f-a59e-978a594c0192",
+          "question": "space 2",
+          "answer": "alanawalker",
+          "image": {
+            "id": "WPapb9IqRKw",
+            "url": "https://images.unsplash.com/photo-1591389703635-e15a07b842d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHw1fHxsYW5kfGVufDB8fHx8MTc0OTcxNjQ4M3ww&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "aerial view of green grass field"
+          }
+        }
+      ],
+      "userId": "5"
+    },
+    {
+      "name": "new set public toi da sua cai nay",
+      "description": "description",
+      "flashcards": [
+        {
+          "id": "83b85b15-5cae-4495-87eb-a0b3b86f210e",
+          "question": "who is most famous 2",
+          "answer": "so 2",
+          "image": {
+            "id": "rPOmLGwai2w",
+            "url": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHwyfHxtdXNpY3xlbnwwfHx8fDE3NDk3MTgyMDB8MA&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "tilt selective photograph of music notes"
+          }
+        },
+        {
+          "id": "0a4a86ee-daf5-405d-81f9-9437e9982600",
+          "question": "which anime",
+          "answer": "dan da dan",
+          "image": {
+            "id": "nKO_1QyFh9o",
+            "url": "https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjI5NDh8MHwxfHNlYXJjaHw1fHxhbmltZXxlbnwwfHx8fDE3NDk3MTgyMTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+            "alt": "white and gray robot during daytime"
+          }
+        }
+      ],
+      "userId": "5",
+      "id": "3653"
+    },
+    {
+      "id": "e270",
+      "name": "dasd",
+      "description": "add",
+      "flashcards": [
+        {
+          "id": "96af00ec-1bfa-4e0f-875d-fd864d44a145",
+          "question": "das",
+          "answer": "dad",
+          "image": null
+        },
+        {
+          "id": "33180682-0eb9-4712-832d-26275d8e4ab6",
+          "question": "dasd",
+          "answer": "dsad",
+          "image": null
+        }
+      ],
+      "userId": "2"
+    },
+    {
+      "id": "445f",
+      "name": "abc",
+      "description": "abc",
+      "flashcards": [
+        {
+          "id": "5472942e-de1b-4ffd-b113-262d98fc90b3",
+          "question": "a",
+          "answer": "b",
+          "image": null
+        },
+        {
+          "id": "f1060a44-ad0c-42c4-a2a7-bd43b42922ec",
+          "question": "a",
+          "answer": "b",
+          "image": null
+        }
+      ],
+      "userId": "1",
+      "status": true
+    },
+    {
+      "id": "db3e",
+      "name": "JAVA",
+      "description": "Fe",
+      "flashcards": [
+        {
+          "id": "97edbad3-6370-423d-b535-6602d4aa3d55",
+          "question": "a",
+          "answer": "a",
+          "image": null
+        },
+        {
+          "id": "d9848d0d-795b-4f74-8a15-bc933758256d",
+          "question": "b",
+          "answer": "b",
+          "image": null
+        }
+      ],
+      "userId": "1"
+    },
+    {
+      "id": "a1cc",
+      "name": "C#",
+      "description": "fe",
+      "flashcards": [
+        {
+          "id": "094b2476-f2a7-4ea0-8e2e-42976dba39f4",
+          "question": "a",
+          "answer": "a",
+          "image": null
+        },
+        {
+          "id": "36439713-ce3c-4f47-8d1f-17e5dba3c9d7",
+          "question": "b",
+          "answer": "b",
+          "image": null
+        }
+      ],
+      "userId": "1"
+    },
+    {
+      "id": "671f",
+      "name": "Node",
+      "description": "FE",
+      "flashcards": [
+        {
+          "id": "5bf45f98-edf4-42c2-8793-6c79f3b802e6",
+          "question": "a",
+          "answer": "a",
+          "image": null
+        },
+        {
+          "id": "9b84d1cb-ecdf-46fa-940b-df85a4bc2bf6",
+          "question": "b",
+          "answer": "b",
+          "image": null
+        }
+      ],
+      "userId": "1"
+    },
+    {
+      "name": "OSG",
+      "description": "fe",
+      "flashcards": [
+        {
+          "id": "4f9d3504-a4be-4b44-9f60-a7ec668bbdb9",
+          "question": "c",
+          "answer": "c",
+          "image": null
+        },
+        {
+          "id": "b0906234-a805-4d59-bda6-cd9b62b8edc9",
+          "question": "b",
+          "answer": "b",
+          "image": null
+        }
+      ],
+      "userId": "1",
+      "id": "8468",
+      "status": false
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "account": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "role": "0",
+      "status": true,
+      "lastTokenIat": 1754645656
+    },
+    {
+      "id": "2",
+      "username": "truong",
+      "password": "123456",
+      "role": "1",
+      "status": true,
+      "lastTokenIat": 1754620079
+    },
+    {
+      "id": "4",
+      "username": "pctra266",
+      "password": "pctra266",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 1754556360
+    },
+    {
+      "id": "5",
+      "username": "trapham266",
+      "password": "trapham266",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "6",
+      "username": "bill",
+      "password": "123456",
+      "role": "2",
+      "status": false,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "7",
+      "username": "bill123",
+      "password": "888888",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "8",
+      "username": "hieu12",
+      "password": "2@Stunning",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "9",
+      "username": "hieuqw123",
+      "password": "123456789Hh@",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "10",
+      "username": "bill9999",
+      "password": "123456",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "11",
+      "username": "bill1010",
+      "password": "123456",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "12",
+      "username": "billq1331",
+      "password": "123456",
+      "role": "1",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "13",
+      "username": "bill1232131",
+      "password": "123456",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 0
+    },
+    {
+      "id": "XhMHLRSU9HVYU5wY4Sm5LrRYYj43",
+      "username": "Trương Quốc Trường",
+      "email": "tqtolympia@gmail.com",
+      "role": "2",
+      "status": true,
+      "lastTokenIat": 1754641997
+    },
+    {
+      "id": "RcrQyKMJoMePqbkVTS8JF9l11Jg2",
+      "username": "Trà Phạm",
+      "email": "phamtra001@gmail.com",
+      "role": "2",
+      "status": null,
+      "lastTokenIat": 1754630369
+    }
   ],
-  "profile": { "name": "typicode" }
+  "role": [
+    {
+      "id": "0",
+      "role": "superadmin"
+    },
+    {
+      "id": "1",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "role": "user"
+    }
+  ],
+  "books": [
+    {
+      "id": "1795",
+      "isbn": "978-3-16-148410-9",
+      "title": "Clean Codedd",
+      "author": "Robert C. Martin",
+      "copies": 7,
+      "userId": "7",
+      "status": "approved",
+      "chapters": [
+        {
+          "name": "Introduction",
+          "status": "approved"
+        },
+        {
+          "name": "Meaningful Names",
+          "status": "approved"
+        },
+        {
+          "name": "Functions",
+          "status": "approved"
+        },
+        {
+          "name": "Comments",
+          "status": "approved"
+        },
+        {
+          "name": "Formatting",
+          "status": "approved"
+        },
+        {
+          "name": "Objects and Data Structures",
+          "status": "approved"
+        },
+        {
+          "name": "Error Handling",
+          "status": "approved"
+        },
+        {
+          "name": "Unit Tests",
+          "status": "approved"
+        },
+        {
+          "name": "Classes",
+          "status": "approved"
+        },
+        {
+          "name": "System Designggg",
+          "status": "approved"
+        },
+        {
+          "name": "fgg",
+          "status": "pending"
+        },
+        {
+          "name": "fg",
+          "status": "pending"
+        }
+      ],
+      "content": {
+        "Introduction": "Clean Code introduces the principles, patterns, and best practices for writing clean, readable, and maintainable code.",
+        "Meaningful Names": "This chapter explains how to choose descriptive and unambiguous names for variables, functions, and classes.",
+        "Functions": "Guidelines for writing small, well-structured, and reusable functions are provided here.",
+        "Comments": "Discusses when comments are helpful and when they are just noise, promoting self-explanatory code.",
+        "Formatting": "Describes code formatting rules that improve readability and consistency across the project.",
+        "Objects and Data Structures": "Explores how to properly design objects, encapsulate data, and reduce complexity.",
+        "Error Handling": "Teaches how to handle errors gracefully, avoiding exceptions that obscure the intent of the code.",
+        "Unit Tests": "Highlights the importance of automated testing and how to write effective unit tests.",
+        "Classes": "Covers principles for designing robust, cohesive, and loosely coupled classes.",
+        "fgg": "rgr",
+        "fg": "fgrfrgr",
+        "System Designggg": "Focuses on building scalable, maintainable, and well-structured software architectures."
+      },
+      "chapterStatuses": {
+        "Introduction": "approved",
+        "Meaningful Names": "approved",
+        "Functions": "approved",
+        "Comments": "approved",
+        "Formatting": "approved",
+        "Objects and Data Structures": "approved",
+        "Error Handling": "approved",
+        "Unit Tests": "approved",
+        "Classes": "approved",
+        "fgg": "pending",
+        "fg": "pending",
+        "System Designggg": "approved"
+      }
+    },
+    {
+      "id": "e390",
+      "isbn": "978-3-16-148410-1",
+      "title": "The Great Journey",
+      "author": "Robert Martin",
+      "copies": 7,
+      "userId": "7",
+      "status": "approved",
+      "chapters": [
+        "Prologue",
+        "The Call to Adventure",
+        "Trials and Tribulations",
+        "Return Home"
+      ],
+      "content": {
+        "Prologue": "An introduction to a young hero destined to embark on a life-changing journey.",
+        "The Call to Adventure": "The hero leaves home to explore new lands and face unforeseen challenges.",
+        "Trials and Tribulations": "Battles, friendships, and betrayals shape the hero’s destiny.",
+        "Return Home": "The journey ends with wisdom gained and a new perspective on life."
+      },
+      "chapterStatuses": {
+        "Prologue": "approved",
+        "The Call to Adventure": "approved",
+        "Trials and Tribulations": "approved",
+        "Return Home": "approved"
+      }
+    },
+    {
+      "id": "e391",
+      "isbn": "978-3-16-148410-2",
+      "title": "Advanced Programming",
+      "author": "Jane Doe",
+      "copies": 7,
+      "chapters": [
+        {
+          "name": "Data Structures",
+          "status": "approved"
+        },
+        {
+          "name": "Algorithms",
+          "status": "approved"
+        },
+        {
+          "name": "Design Patterns",
+          "status": "approved"
+        },
+        {
+          "name": "Parallel Computing",
+          "status": "approved"
+        },
+        {
+          "name": "fg",
+          "status": "pending"
+        }
+      ],
+      "content": {
+        "Data Structures": "This chapter explores arrays, linked lists, trees, graphs, and hash tables with real-world examples of implementation.",
+        "Algorithms": "Focuses on sorting, searching, and optimization techniques with time complexity analysis.",
+        "Design Patterns": "Introduces reusable solutions to common software design problems like Singleton, Observer, and Factory patterns.",
+        "Parallel Computing": "Covers multi-threading, concurrency, and distributed systems programming.",
+        "fg": "rfrf"
+      },
+      "userId": "7",
+      "status": "approved"
+    },
+    {
+      "id": "886a",
+      "isbn": "978-3-16-148410-7",
+      "title": "Clean Codeee",
+      "author": "Robert Martin",
+      "copies": 5,
+      "chapters": [],
+      "content": {},
+      "status": "pending",
+      "userId": "7",
+      "chapterStatuses": {}
+    },
+    {
+      "id": "d8f0",
+      "isbn": "978-3-16-148410-8",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "copies": 3,
+      "userId": "6",
+      "status": "rejected",
+      "chapters": [
+        "Foundations",
+        "Sorting and Order Statistics",
+        "Data Structures",
+        "Graph Algorithms"
+      ],
+      "content": {
+        "Foundations": "Introduces mathematical foundations and asymptotic notation for algorithm analysis.",
+        "Sorting and Order Statistics": "Covers sorting algorithms like quicksort and mergesort, and order statistics.",
+        "Data Structures": "Explores heaps, hash tables, and binary search trees.",
+        "Graph Algorithms": "Discusses graph traversal, shortest paths, and minimum spanning trees."
+      },
+      "chapterStatuses": {
+        "Foundations": "rejected",
+        "Sorting and Order Statistics": "rejected",
+        "Data Structures": "rejected",
+        "Graph Algorithms": "rejected"
+      }
+    },
+    {
+      "id": "5a51",
+      "isbn": "978-3-16-148410-4",
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "copies": 4,
+      "chapters": [
+        {
+          "name": "Creational Patterns",
+          "status": "rejected"
+        },
+        {
+          "name": "Structural Patterns",
+          "status": "rejected"
+        },
+        {
+          "name": "Behavioral Patterns",
+          "status": "rejected"
+        }
+      ],
+      "content": {
+        "Creational Patterns": "Explains patterns like Factory, Singleton, and Builder for object creation.",
+        "Structural Patterns": "Covers Adapter, Composite, and Proxy patterns for structuring objects.",
+        "Behavioral Patterns": "Describes Observer, Strategy, and Command patterns for object interactions."
+      },
+      "userId": "7",
+      "status": "pending"
+    },
+    {
+      "id": "a329",
+      "isbn": "978-3-16-148410-3",
+      "title": "Clean Code",
+      "author": "Robert Martin",
+      "copies": 7,
+      "chapters": [],
+      "content": {},
+      "status": "pending",
+      "userId": "7"
+    },
+    {
+      "id": "8b55",
+      "isbn": "978-3-16-148410-5",
+      "title": "Clean Code",
+      "author": "Robert Martin",
+      "copies": 7,
+      "chapters": [],
+      "content": {},
+      "status": "pending",
+      "userId": "7"
+    },
+    {
+      "id": "0a7e",
+      "isbn": "678-3-16-148410-3",
+      "title": "Clean",
+      "author": "Robert Martin",
+      "copies": 7,
+      "chapters": [],
+      "content": {},
+      "status": "pending",
+      "userId": "7"
+    }
+  ],
+  "discussions": [
+    {
+      "id": "1",
+      "title": "How to effectively use flashcards for studying anything else?",
+      "content": "I'm struggling with memorizing vocabulary using flashcards. What are some effective techniques you recommend yet?",
+      "authorId": "2",
+      "authorName": "truong",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2025-06-10T06:49:16.533Z",
+      "isEdited": true,
+      "upvotes": 1,
+      "downvotes": 1,
+      "score": 0,
+      "userVotes": {
+        "3": "upvote",
+        "4": "downvote"
+      },
+      "views": 3,
+      "viewedBy": [
+        "4",
+        "1",
+        "XhMHLRSU9HVYU5wY4Sm5LrRYYj43"
+      ],
+      "answers": [
+        {
+          "id": "1",
+          "content": "I recommend using spaced repetition. Review cards at increasing intervals - 1 day, 3 days, 1 week, etc.",
+          "authorId": "3",
+          "authorName": "tqt",
+          "createdAt": "2024-01-15T14:20:00Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 1,
+          "downvotes": 0,
+          "score": 1,
+          "userVotes": {
+            "2": "upvote"
+          }
+        },
+        {
+          "id": "2",
+          "content": "Try the Leitner system! Organize cards into different boxes based on how well you know them.\nGood luck",
+          "authorId": "4",
+          "authorName": "pctra266",
+          "createdAt": "2024-01-15T16:45:00Z",
+          "updatedAt": "2025-06-10T07:44:12.113Z",
+          "isEdited": true,
+          "upvotes": 1,
+          "downvotes": 1,
+          "score": 0,
+          "userVotes": {
+            "2": "downvote",
+            "3": "upvote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Best time of day to study?",
+      "content": "When do you find yourself most productive when studying? Morning, afternoon, or evening?",
+      "authorId": "3",
+      "authorName": "tqt",
+      "createdAt": "2024-01-14T08:15:00Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "userVotes": {},
+      "views": 2,
+      "viewedBy": [
+        "1",
+        "2"
+      ],
+      "answers": [
+        {
+          "id": "3",
+          "content": "I'm definitely a morning person. My brain is freshest right after I wake up.",
+          "authorId": "2",
+          "authorName": "truong",
+          "createdAt": "2024-01-14T09:30:00Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 0,
+          "downvotes": 0,
+          "score": 0,
+          "userVotes": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "How to stay motivated while studying?",
+      "content": "I often lose motivation after a few weeks of studying. Any tips on maintaining long-term motivation?",
+      "authorId": "4",
+      "authorName": "pctra266",
+      "createdAt": "2024-01-13T19:22:00Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "userVotes": {},
+      "views": 2,
+      "viewedBy": [
+        "1",
+        "2"
+      ],
+      "answers": [
+        {
+          "id": "4",
+          "content": "Set small, achievable goals and celebrate when you reach them. Also, find a study buddy for accountability!",
+          "authorId": "2",
+          "authorName": "truong",
+          "createdAt": "2024-01-13T20:15:00Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 0,
+          "downvotes": 0,
+          "score": 0,
+          "userVotes": {}
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Effective note-taking strategies?",
+      "content": "What note-taking methods do you use? I'm looking for something more effective than just writing everything down.",
+      "authorId": "2",
+      "authorName": "truong",
+      "createdAt": "2024-01-12T13:45:00Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "userVotes": {},
+      "views": 1,
+      "viewedBy": [
+        "1"
+      ],
+      "answers": []
+    },
+    {
+      "id": "5",
+      "title": "How to prepare for exams efficiently?",
+      "content": "With limited time before exams, what's the most efficient way to review all the material?",
+      "authorId": "3",
+      "authorName": "tqt",
+      "createdAt": "2024-01-11T16:20:00Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "userVotes": {},
+      "views": 2,
+      "viewedBy": [
+        "1",
+        "2"
+      ],
+      "answers": [
+        {
+          "id": "6",
+          "content": "Focus on active recall rather than just re-reading. Test yourself frequently!",
+          "authorId": "4",
+          "authorName": "pctra266",
+          "createdAt": "2024-01-11T18:45:00Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 0,
+          "downvotes": 0,
+          "score": 0,
+          "userVotes": {}
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Lalala",
+      "content": "Lalala",
+      "authorId": "4",
+      "authorName": "pctra266",
+      "createdAt": "2025-06-10T07:41:52.222Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 1,
+      "downvotes": 0,
+      "score": 1,
+      "userVotes": {
+        "2": "upvote"
+      },
+      "views": 2,
+      "viewedBy": [
+        "2",
+        "1"
+      ],
+      "answers": []
+    },
+    {
+      "id": "7",
+      "title": "Kakaka",
+      "content": "Kakaka",
+      "authorId": "2",
+      "authorName": "truong",
+      "createdAt": "2025-06-10T07:58:28.223Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 1,
+      "downvotes": 3,
+      "score": -2,
+      "userVotes": {
+        "1": "downvote",
+        "4": "downvote",
+        "XhMHLRSU9HVYU5wY4Sm5LrRYYj43": "downvote",
+        "RcrQyKMJoMePqbkVTS8JF9l11Jg2": "upvote"
+      },
+      "views": 4,
+      "viewedBy": [
+        "4",
+        "XhMHLRSU9HVYU5wY4Sm5LrRYYj43",
+        "1",
+        "RcrQyKMJoMePqbkVTS8JF9l11Jg2"
+      ],
+      "answers": [
+        {
+          "id": "1",
+          "content": "rat ngu hahaah",
+          "authorId": "1",
+          "authorName": "admin",
+          "createdAt": "2025-08-08T05:15:29.573Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 0,
+          "downvotes": 0,
+          "score": 0,
+          "userVotes": {}
+        },
+        {
+          "id": "2",
+          "content": "rat hay hahah",
+          "authorId": "RcrQyKMJoMePqbkVTS8JF9l11Jg2",
+          "authorName": "Trà Phạm",
+          "createdAt": "2025-08-08T05:16:13.527Z",
+          "updatedAt": null,
+          "isEdited": false,
+          "upvotes": 1,
+          "downvotes": 0,
+          "score": 1,
+          "userVotes": {
+            "1": "upvote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Fix title please!",
+      "content": "hay fix title cho toi",
+      "authorId": "RcrQyKMJoMePqbkVTS8JF9l11Jg2",
+      "authorName": "Trà Phạm",
+      "createdAt": "2025-08-08T05:18:50.475Z",
+      "updatedAt": null,
+      "isEdited": false,
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "userVotes": {},
+      "views": 0,
+      "viewedBy": [],
+      "answers": []
+    }
+  ],
+  "siteStats": [
+    {
+      "id": "1",
+      "date": "2025-07-08",
+      "visits": 25,
+      "flashcardsStudied": 46
+    },
+    {
+      "id": "8dc9",
+      "date": "2025-07-08",
+      "visits": 1,
+      "flashcardsStudied": 8
+    },
+    {
+      "id": "ad2c",
+      "date": "2025-08-08",
+      "visits": 3,
+      "flashcardsStudied": 2
+    }
+  ]
 }
